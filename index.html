@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Hotel Room Booking System</title>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Hotel Room Booking System</h1>
+
+    <input type="text"
+    id="name"
+    placeholder="Enter Customer Name">
+
+    <input type="text"
+    id="phone"
+    placeholder="Enter Phone Number">
+
+    <select id="room">
+
+        <option>Single Room</option>
+        <option>Double Room</option>
+        <option>Deluxe Room</option>
+
+    </select>
+
+    <input type="date" id="checkin">
+
+    <input type="date" id="checkout">
+
+    <button onclick="bookRoom()">
+
+        Book Room
+
+    </button>
+
+    <div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
